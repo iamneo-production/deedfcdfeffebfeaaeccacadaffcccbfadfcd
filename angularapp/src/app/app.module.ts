@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms';
 import { CurrencyconvPipe } from './currencyconv.pipe';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -17,8 +16,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    NgbModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
