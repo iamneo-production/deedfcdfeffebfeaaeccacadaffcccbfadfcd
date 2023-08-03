@@ -4,13 +4,21 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { FormsModule } from '@angular/forms';
+import { CurrencyconvPipe } from './currencyconv.pipe';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CurrencyconvPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    NgModule
   ],
   providers: [],
   bootstrap: [AppComponent]
